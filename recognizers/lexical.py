@@ -82,4 +82,5 @@ class Lexical(Automaton):
             raise AttributeError("Current state '{}' does not exist".format(self.state))
 
         if ve:
-            raise ValueError("Invalid input '{}' to state '{}'".format(token.value, self.state))
+            raise ValueError("{}: Invalid input '{}' to state '{}'"
+                             .format(self.__class__.__name__, token.value, self.state))
