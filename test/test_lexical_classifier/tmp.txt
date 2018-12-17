@@ -1,0 +1,31 @@
+10 LET *
+A1=12+3
+B1 > B2
+C1>=32- 1
+D1 <D2
+E1 <= 10  /  5
+
+int,10
+id,LET
+special,*
+id,A1
+special,=
+int,12
+special,+
+int,3
+id,B1
+special,>
+id,B2
+id,C1
+special,>=
+int,32
+special,-
+int,1
+id,D1
+special,<
+id,D2
+id,E1
+special,<=
+int,10
+special,/
+int,5
